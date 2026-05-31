@@ -31,8 +31,8 @@ export default function OurStoryTimeline() {
       className="relative py-24 md:py-36 w-full max-w-7xl mx-auto px-6 overflow-hidden select-none"
     >
       {/* Background soft blurs */}
-      <div className="absolute top-[20%] left-[-10%] w-[300px] h-[300px] rounded-full bg-violet-600/5 blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-[20%] right-[-10%] w-[300px] h-[300px] rounded-full bg-rose-600/5 blur-[100px] pointer-events-none" />
+      <div className="absolute top-[20%] left-[-10%] w-[300px] h-[300px] rounded-full bg-gold-500/3 blur-[100px] pointer-events-none" />
+      <div className="absolute bottom-[20%] right-[-10%] w-[300px] h-[300px] rounded-full bg-gold-400/3 blur-[100px] pointer-events-none" />
 
       {/* Section Title */}
       <div className="text-center mb-20">
@@ -43,7 +43,7 @@ export default function OurStoryTimeline() {
           transition={{ duration: 0.8 }}
           className="text-xs font-sans font-semibold tracking-[0.35em] text-gold-400 uppercase"
         >
-          A Walk Down Memory Lane
+          THE CHRONOLOGY OF US
         </motion.span>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -52,9 +52,9 @@ export default function OurStoryTimeline() {
           transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="text-4xl md:text-6xl font-serif font-bold text-zinc-100 dark:text-zinc-100 light:text-zinc-900 mt-3"
         >
-          Our Story
+          Our Sacred Milestones
         </motion.h2>
-        <div className="w-16 h-[1px] bg-gold-400/50 mx-auto mt-6" />
+        <div className="w-16 h-[1px] bg-gold-400/30 mx-auto mt-6" />
       </div>
 
       {/* Timeline Elements Container */}
@@ -65,7 +65,7 @@ export default function OurStoryTimeline() {
         {/* Dynamic Growing Glowing Line */}
         <motion.div
           style={{ scaleY, originY: 0 }}
-          className="absolute left-[20px] md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-gold-400 via-rose-gold to-violet-500 origin-top -translate-x-1/2 pointer-events-none z-10 shadow-[0_0_10px_rgba(208,171,104,0.3)]"
+          className="absolute left-[20px] md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-gold-400 via-rose-gold to-gold-600 origin-top -translate-x-1/2 pointer-events-none z-10 shadow-[0_0_10px_rgba(208,171,104,0.3)]"
         />
 
         {/* Timeline cards mapping */}
@@ -111,8 +111,7 @@ export default function OurStoryTimeline() {
                 </span>
 
                 {/* Milestone Title */}
-                <h3 className="text-xl md:text-2xl font-serif font-semibold text-zinc-100 dark:text-zinc-100 light:text-zinc-900 mb-4 flex items-center gap-2">
-                  <span>{event.emoji}</span>
+                <h3 className="text-xl md:text-2xl font-serif font-semibold text-zinc-100 dark:text-zinc-100 light:text-zinc-900 mb-4">
                   {event.title}
                 </h3>
 

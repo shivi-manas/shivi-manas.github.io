@@ -55,8 +55,8 @@ export default function HeroSection({ activeMode }) {
       <StarfieldBackground activeMode={activeMode} />
 
       {/* Decorative Blur Orbs */}
-      <div className="absolute top-[30%] left-[20%] w-[35vw] h-[35vw] rounded-full bg-indigo-500/10 blur-[120px] pointer-events-none z-0 dark:block hidden" />
-      <div className="absolute bottom-[30%] right-[20%] w-[35vw] h-[35vw] rounded-full bg-pink-500/5 blur-[120px] pointer-events-none z-0 dark:block hidden" />
+      <div className="absolute top-[30%] left-[20%] w-[35vw] h-[35vw] rounded-full bg-gold-500/5 blur-[120px] pointer-events-none z-0 dark:block hidden" />
+      <div className="absolute bottom-[30%] right-[20%] w-[35vw] h-[35vw] rounded-full bg-gold-400/3 blur-[120px] pointer-events-none z-0 dark:block hidden" />
 
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-4xl flex flex-col items-center">
@@ -65,9 +65,9 @@ export default function HeroSection({ activeMode }) {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 0.7, scale: 1 }}
           transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
-          className="mb-6 font-sans text-xs tracking-[0.3em] uppercase text-gold-400 font-semibold"
+          className="mb-6 font-sans text-xs tracking-[0.4em] uppercase text-gold-400 font-semibold"
         >
-          ✨ A Digital Love Letter ✨
+          A DIGITAL LOVE LETTER
         </motion.div>
 
         {/* Happy Birthday Shivi */}
@@ -77,7 +77,7 @@ export default function HeroSection({ activeMode }) {
           animate="visible"
           className="font-serif text-4xl sm:text-6xl md:text-8xl font-bold tracking-tight mb-8 text-gold-gradient drop-shadow-[0_4px_24px_rgba(208,171,104,0.08)] px-2"
         >
-          Happy Birthday Shivi <span className="inline-block text-rose-500 animate-pulse text-3xl sm:text-5xl md:text-7xl">❤️</span>
+          Happy Birthday Shivi
         </motion.h1>
 
         {/* Story Quote with premium staggered word fade-in */}

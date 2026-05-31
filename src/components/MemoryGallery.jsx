@@ -65,8 +65,8 @@ export default function MemoryGallery() {
   return (
     <section id="gallery" className="relative py-24 md:py-36 w-full max-w-7xl mx-auto px-6 overflow-hidden select-none">
       {/* Background ambient light */}
-      <div className="absolute top-[10%] right-[-10%] w-[350px] h-[350px] rounded-full bg-rose-600/5 blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-[10%] left-[-10%] w-[350px] h-[350px] rounded-full bg-violet-600/5 blur-[120px] pointer-events-none" />
+      <div className="absolute top-[10%] right-[-10%]. w-[350px] h-[350px] rounded-full bg-gold-500/3 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[10%] left-[-10%] w-[350px] h-[350px] rounded-full bg-gold-400/3 blur-[120px] pointer-events-none" />
 
       {/* Section Title */}
       <div className="text-center mb-20">
@@ -77,7 +77,7 @@ export default function MemoryGallery() {
           transition={{ duration: 0.8 }}
           className="text-xs font-sans font-semibold tracking-[0.35em] text-gold-400 uppercase"
         >
-          Moments Suspended in Time
+          VISUAL FRAGMENTS OF DEVOTION
         </motion.span>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -86,9 +86,9 @@ export default function MemoryGallery() {
           transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="text-4xl md:text-6xl font-serif font-bold text-zinc-100 dark:text-zinc-100 light:text-zinc-900 mt-3"
         >
-          Memory Gallery
+          Captured Moments
         </motion.h2>
-        <div className="w-16 h-[1px] bg-gold-400/50 mx-auto mt-6" />
+        <div className="w-16 h-[1px] bg-gold-400/30 mx-auto mt-6" />
       </div>
 
       {/* Responsive columns for masonry look */}

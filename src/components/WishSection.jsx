@@ -32,7 +32,7 @@ export default function WishSection() {
           transition={{ duration: 1, delay: 0.2 }}
           className="text-xs font-sans font-semibold tracking-[0.4em] text-zinc-500 uppercase mb-4"
         >
-          If I Had One Wish
+          MY ONLY RESOLUTION
         </motion.span>
 
         {/* The Wish - Massive luxury typography */}
@@ -43,11 +43,11 @@ export default function WishSection() {
           transition={{ duration: 1.5, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="font-serif text-3xl md:text-5xl font-light italic leading-relaxed text-zinc-200 dark:text-zinc-200"
         >
-          "I wish every future birthday of yours finds me standing{" "}
+          "My only wish is to spend all of my tomorrows{" "}
           <span className="text-gold-gradient font-normal not-italic drop-shadow-[0_0_12px_rgba(208,171,104,0.15)]">
-            beside you
-          </span>
-          ."
+            cherishing
+          </span>{" "}
+          the beautiful heart you hold."
         </motion.h2>
       </div>
     </section>

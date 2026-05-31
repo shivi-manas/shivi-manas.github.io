@@ -11,8 +11,7 @@ import SpecialQualities from "./components/SpecialQualities";
 import MemoryGallery from "./components/MemoryGallery";
 import LoveLetterCard from "./components/LoveLetterCard";
 import TheFutureReveal from "./components/TheFutureReveal";
-import CountdownTimer from "./components/CountdownTimer";
-import ReasonsList from "./components/ReasonsList";
+import ThingsIAdore from "./components/ThingsIAdore";
 import WishSection from "./components/WishSection";
 import FinalEnding from "./components/FinalEnding";
 import EasterEgg from "./components/EasterEgg";
@@ -151,22 +150,19 @@ export default function App() {
             {/* 4. Luxury Masonry Memory Gallery & Lightbox */}
             <MemoryGallery />
 
-            {/* 5. Luxury Glass Love Letter */}
+            {/* 5. Things I Adore About You Notes Grid */}
+            <ThingsIAdore />
+
+            {/* 6. Luxury Glass Love Letter */}
             <LoveLetterCard />
 
-            {/* 6. High-Contrast Emotional Future Reveal */}
+            {/* 7. High-Contrast Emotional Future Reveal */}
             <TheFutureReveal />
 
-            {/* 7. Live Countdown Ticker */}
-            <CountdownTimer />
-
-            {/* 8. 25 Reasons Staggered Cards */}
-            <ReasonsList />
-
-            {/* 9. Cinematic Wish Centering Section */}
+            {/* 8. Cinematic Wish Centering Section */}
             <WishSection />
 
-            {/* 10. Stars Drifting Final Ending */}
+            {/* 9. Stars Drifting Final Ending */}
             <FinalEnding />
           </main>
 

@@ -41,7 +41,7 @@ export default function SpecialQualities() {
           transition={{ duration: 0.8 }}
           className="text-xs font-sans font-semibold tracking-[0.35em] text-gold-400 uppercase"
         >
-          My Favorite Things About You
+          THE GRACE YOU CARRY
         </motion.span>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -50,9 +50,9 @@ export default function SpecialQualities() {
           transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="text-4xl md:text-6xl font-serif font-bold text-zinc-100 dark:text-zinc-100 light:text-zinc-900 mt-3"
         >
-          Why You Are Special
+          The Qualities I Cherish
         </motion.h2>
-        <div className="w-16 h-[1px] bg-gold-400/50 mx-auto mt-6" />
+        <div className="w-16 h-[1px] bg-gold-400/30 mx-auto mt-6" />
       </div>
 
       {/* Grid of Qualities */}
